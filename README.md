@@ -22,7 +22,7 @@ b.Data Preprocessing: The dataset is loaded, and data preprocessing steps includ
 
 c.Building the ANN: A Sequential model is created using TensorFlow and Keras. The model architecture consists of an input layer, two hidden layers with ReLU activation, and an output layer with sigmoid activation.
 
-d.Training the ANN: The model is compiled using the Adam optimizer and binary crossentropy loss. It is then trained on the training set for 50 epochs.
+d.Training the ANN: The model is compiled using the Adam optimizer and binary crossentropy loss. It is then trained on the training set for 100 epochs.
 
 e.Making Predictions and Evaluating the Model: Predictions are made on the test set, and the model's performance is evaluated using a confusion matrix and accuracy score.
 
@@ -33,7 +33,7 @@ The considered data set contains details of a bank's customers and the target va
 
 # Result
 
-Model that is built gives the training accuracy of 87% and a testing accuracy of 85%.
+Model that is built gives the training accuracy of 90% and a testing accuracy of 84%.
 
 
 
